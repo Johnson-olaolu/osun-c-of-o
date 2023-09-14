@@ -4,7 +4,7 @@ import { greatVibes } from "../styles/fonts";
 
 const Jumbotrun = () => {
   return (
-    <main className="px-20 h-[600px]  flex items-center bg-[#FFF6EE] justify-between">
+    <main className="px-4 md:px-20 p-20 h-auto md:h-[600px]  flex flex-col-reverse gap-3 md:flex-row items-center bg-[#FFF6EE] justify-between">
       <div className=" space-y-6 max-w-[472px]">
         <h2 className={` text-[40px] leading-tight ${greatVibes.className}`}>
           We provide a digitized land title registration and verification system.
@@ -21,7 +21,7 @@ const Jumbotrun = () => {
           </a>
         </div>
       </div>
-      <div className=" bg-[#1E1E1E] rounded overflow-hidden">
+      <div className=" bg-[#1E1E1E] rounded overflow-hidden shrink-0">
         <Image src={"/image 1.png"} height={332} width={556} alt="" className="" />
       </div>
     </main>

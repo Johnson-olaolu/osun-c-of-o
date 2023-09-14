@@ -4,13 +4,13 @@ import { greatVibes } from "../styles/fonts";
 
 const Register = () => {
   return (
-    <div className="px-20 py-16">
+    <div className="px-4 md:px-20 py-16">
       <div className=" space-y-4 mb-14">
         <h4 className={` text-4xl ${greatVibes.className}`}>How to Register</h4>
         <p className=" text-lg">You can get started with these simple steps</p>
       </div>
 
-      <div className=" flex items-center justify-between mb-16">
+      <div className=" flex flex-col md:flex-row items-start gap-4 md:items-center justify-between mb-16">
         <div className=" flex items-center gap-6">
           <Image height={84} width={84} alt="" src={"/icons/report.svg"} />
           <div className=" text-[#50290D] space-y-1">

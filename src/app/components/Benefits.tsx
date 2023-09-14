@@ -4,12 +4,12 @@ import { greatVibes } from "../styles/fonts";
 
 const Benefits = () => {
   return (
-    <div className="px-20 py-16 bg-[#FFF6EE]">
+    <div className="px-4 md:px-20 py-16 bg-[#FFF6EE]">
       <div className=" space-y-4 mb-14 max-w-[392px]">
         <h4 className={` text-4xl ${greatVibes.className}`}>Benefits</h4>
         <p className=" text-lg">Our system offers a number of benefits, including:</p>
       </div>
-      <div className=" grid grid-cols-3 gap-6">
+      <div className=" grid md:grid-cols-3 gap-6">
         <div className=" h-[396px] bg-white flex flex-col p-12 gap-3">
           <Image height={90} width={90} alt="" src={"/icons/svg1.svg"} className="self-end" />
           <div className=" text-[#50290D] space-y-10">
