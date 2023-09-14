@@ -21,7 +21,7 @@ const Jumbotrun = () => {
           </a>
         </div>
       </div>
-      <div className=" bg-[#1E1E1E]">
+      <div className=" bg-[#1E1E1E] rounded overflow-hidden">
         <Image src={"/image 1.png"} height={332} width={556} alt="" className="" />
       </div>
     </main>
