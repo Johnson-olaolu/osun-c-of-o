@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="px-4 md:px-20 pt-14 pb-24 gap-5 bg-[#FFF6EE] flex flex-col md:flex-row justify-between">
+    <footer className="px-4 md:px-20 pt-14 pb-24 gap-20 md:gap-5 bg-[#FFF6EE] flex flex-col md:flex-row justify-between">
       <div className=" max-w-[370px]">
         <div className="flex items-center gap-4 mb-5">
           <Image alt="" height={56} width={56} src={"/OSUN STATE LOGO 1.png"} />
